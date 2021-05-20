@@ -1,0 +1,34 @@
+.terraform
+terraform.tfstate
+*.tfstate*
+terraform.tfvars
+accessKeys.csv
+init.sh
+
+out.log
+sa.json
+*private_key.pem
+#  Local .terraform directories
+**/.terraform/*
+.idea*
+# .tfstate files
+*.tfstate
+*.tfstate.*
+eks-state
+*lambda.zip
+config-map-aws-auth.yaml
+
+cloud-nuke_darwin_amd64
+admin_cluster_role
+developer_cluster_role
+kubeconfig
+sample-app*
+*.vscode
+*.DS_Store
+init.sh
+config-map-aws-auth_kroc-cluster.yaml
+*kubeconfig_wtf-eks
+metricbeat*
+private.key
+builds*
+/node_modules
